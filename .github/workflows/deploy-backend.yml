@@ -3,7 +3,7 @@ name: Deploy Backend SAM Application
 on:
   push:
     branches:
-      - main # Or 'master' if that is your default branch
+      - main
 
 jobs:
   deploy:
