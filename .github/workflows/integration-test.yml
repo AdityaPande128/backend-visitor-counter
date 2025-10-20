@@ -32,5 +32,5 @@ jobs:
       - name: Run integration test
         run: python tests/integration_test.py
         env:
-          # Pass the function name as an environment variable
+          
           LAMBDA_FUNCTION_NAME: ${{ secrets.LAMBDA_FUNCTION_NAME }}
