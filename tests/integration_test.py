@@ -17,7 +17,7 @@ try:
     print("Invoking function for the first time...")
     response1 = lambda_client.invoke(
         FunctionName=function_name,
-        InvocationType='RequestResponse' # Synchronous invocation
+        InvocationType='RequestResponse'
     )
 
     
